@@ -22,7 +22,7 @@ You can also make the library look for a requirements.txt file, and install all 
 
 You can also specify the path to the `requirements.txt` file, but by default it is the `"requirements.txt"` standard.
 
-## Note to _ functions
+## Note to functions prefixed with _
 Functions prefixed with _ are for internal use, and should **not** be called directly, unless you have a good reason to.
 
 # Credits
