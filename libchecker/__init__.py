@@ -2,8 +2,8 @@
 # Copyright (c) 0x150, 2022. BY-SA 4.0 License                #
 # https://github.com/0x3C50/libchecker                        #
 #                                                             #
-# "This project" or "this library" defines everything inside  #
-# this folder.                                                #
+# "This project" or "this library" refers to everything       #
+# inside this folder.                                         #
 # You are free to copy, modify and use this library           #
 # in any project, if this note, in its entirety, stays        #
 # unmodified, and the creator (0x150) is attributed,          #
