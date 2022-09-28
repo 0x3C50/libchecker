@@ -23,7 +23,9 @@ def _install_libraries(deps: list[str]):
 
 
 def _call_pip(args: list[str]):
-    pip_internal = __import__("pip._internal")  # to prevent code editors from crying like a bitch
+    pip_internal = __import__("importlib").import_module(
+        "pip._internal.cli.main"
+    )  # zero top level imports
     pip_internal.main(args)
 
 
